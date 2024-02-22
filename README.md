@@ -16,5 +16,5 @@ sudo apt install cmake ninja-build libgtk-3-dev
 After the successful installation, head over to the next step  
 Head over to the Releases section of the repository and download the `Linux.tar.gz` file. Locate to the directory where you have downloaded the file, unzip the file and under the `linux` folder, navigate to `x64/release/bundle`, you would find an executable named `vpm`. Double click on it, and then you're are done.  
 ### Installation in Windows
-Download the `Windows.zip` and extract it to a folder. Double click on `vpm` executable and that's done.
+Download the `Windows.zip` and extract it to a folder. Double click on `vpm` executable and that's done.  
 **Caution: Do not delete any .dll files.**
