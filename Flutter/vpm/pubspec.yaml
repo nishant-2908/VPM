@@ -21,6 +21,7 @@ flutter_launcher_icons:
   android: true
   ios: true
   image_path: "icons/Free_Sample_By_Wix_Exported.png"
+  
 flutter:
   uses-material-design: true
   fonts:
