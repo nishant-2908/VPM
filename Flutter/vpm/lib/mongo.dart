@@ -186,7 +186,3 @@ Future<Map> getVehicleDetails(String VehicleNumber) async {
   var responseBody = jsonDecode(response.body);
   return responseBody as Map;
 }
-
-void main() async {
-  updateTheValue("BAV", 'GJ08BH3021', "2779", "BS6", "Petrol");
-}
