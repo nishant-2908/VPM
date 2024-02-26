@@ -18,7 +18,7 @@ dev_dependencies:
   flutter_launcher_icons: ^0.13.1
 
 flutter_launcher_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
   image_path: "icons/Free_Sample_By_Wix_Exported.png"
 flutter:
