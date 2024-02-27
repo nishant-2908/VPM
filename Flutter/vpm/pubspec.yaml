@@ -21,7 +21,9 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  windows: true
+  windows: 
+    generate: true
+    image_path: "icons/WhatsApp Image 2024-02-27 at 18.05.56_98dda1a8.png"  
   linux: true
   image_path: "icons/WhatsApp Image 2024-02-27 at 18.05.56_98dda1a8.png"
   
