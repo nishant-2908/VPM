@@ -20,7 +20,7 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "icons/Free_Sample_By_Wix_Exported.png"
+  image_path: "icons/WhatsApp Image 2024-02-27 at 18.05.56_98dda1a8.png"
   
 flutter:
   uses-material-design: true
