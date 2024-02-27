@@ -94,7 +94,6 @@ class _AdminHomeWidgetState extends State<AdminHomeWidget> {
                         scrollDirection: Axis.horizontal,
                         child: DataTable(
                           columns: const [
-                            DataColumn(label: Text("UID")),
                             DataColumn(label: Text("Vehicle Number")),
                             DataColumn(label: Text("Engine Stage")),
                             DataColumn(label: Text("Engine Capacity")),
@@ -104,7 +103,6 @@ class _AdminHomeWidgetState extends State<AdminHomeWidget> {
                           ],
                           rows: data
                               .map((vehicle) => DataRow(cells: [
-                                    DataCell(Text(vehicle['UID'].toString())),
                                     DataCell(Text(
                                         vehicle['Vehicle Number'].toString())),
                                     DataCell(Text(
