@@ -25,7 +25,7 @@ class AdminHomeWidget extends StatefulWidget {
 
 class _AdminHomeWidgetState extends State<AdminHomeWidget> {
   late Future<List<dynamic>> vehicleData;
-  List<dynamic> data = []; // Declare the data variable
+  List<dynamic> data = [];
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
