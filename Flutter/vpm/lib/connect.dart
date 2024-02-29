@@ -1,6 +1,7 @@
 // ignore_for_file: use_build_context_synchronously, unused_field, use_key_in_widget_constructors, prefer_const_constructors_in_immutables, non_constant_identifier_names, unrelated_type_equality_checks
 
 import 'package:flutter/material.dart';
+import 'main.dart';
 import 'mongo.dart';
 import 'package:flutter/services.dart';
 import 'user_home.dart';
@@ -91,7 +92,10 @@ class _UserHomeWidgetState extends State<UserHomeWidget> {
                         child: IconButton(
                           icon: const Icon(Icons.logout),
                           onPressed: () {
-                            Navigator.pop(context);
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => MyApp()));
                           },
                         ),
                       )

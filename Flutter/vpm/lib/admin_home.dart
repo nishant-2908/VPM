@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'mongo.dart';
+import 'main.dart';
 
 class AdminHome extends StatefulWidget {
   @override
@@ -61,7 +62,11 @@ class _AdminHomeWidgetState extends State<AdminHomeWidget> {
                           ),
                           IconButton(
                               onPressed: () {
-                                Navigator.pop(context);
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => MyApp()),
+                                );
                               },
                               icon: const Icon(Icons.logout))
                         ],

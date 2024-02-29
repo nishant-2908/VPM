@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'connect.dart';
 
 class UserWidget extends StatefulWidget {
-  const UserWidget({Key? key}) : super(key: key);
+  const UserWidget({super.key});
 
   @override
   State<UserWidget> createState() => _UserWidgetState();
@@ -49,7 +49,7 @@ class _UserWidgetState extends State<UserWidget> {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
-          icon: Icon(
+          icon: const Icon(
             Icons.arrow_back,
             color: Colors.black,
           ),
@@ -223,9 +223,5 @@ class _UserWidgetState extends State<UserWidget> {
       return false;
     }
     return true;
-  }
-
-  void addNumber() {
-    print(2 + 2);
   }
 }
