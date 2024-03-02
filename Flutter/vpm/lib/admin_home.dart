@@ -80,8 +80,7 @@ class _AdminHomeWidgetState extends State<AdminHomeWidget> {
                               });
                               final fetchedData = await vehicleData;
                               setState(() {
-                                data =
-                                    fetchedData; // Assign the fetched data to the data variable
+                                data = fetchedData;
                               });
                               print(data);
                             },
