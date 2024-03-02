@@ -23,9 +23,12 @@ flutter_launcher_icons:
   ios: true
   windows: 
     generate: true
-    image_path: "icons/WhatsApp Image 2024-02-27 at 18.05.56_98dda1a8.png"  
-  linux: true
-  image_path: "icons/WhatsApp Image 2024-02-27 at 18.05.56_98dda1a8.png"
+    image_path: "icons/WhatsApp Image 2024-02-27 at 18.05.56_98dda1a8.png"
+    icon_size: 48
+  linux: 
+    generate: true
+    image_path: "icons/WhatsApp Image 2024-02-27 at 18.05.56_98dda1a8.png"
+    icon_size: 48
   
 flutter:
   uses-material-design: true
