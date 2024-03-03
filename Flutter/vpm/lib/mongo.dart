@@ -126,6 +126,7 @@ Future<bool> updateTheValue(String DeviceAddress, String VehicleNumber,
     "filter": {
       "Object-Type": "Vehicle-Details",
       "Device Address": DeviceAddress,
+      "Vehicle Number": "",
     },
     "update": {
       "\$set": {
