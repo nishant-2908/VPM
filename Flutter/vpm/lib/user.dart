@@ -159,8 +159,12 @@ class _UserWidgetState extends State<UserWidget> {
                             ElevatedButton(
                               onPressed: () async {
                                 var value = await checkUsername(
-                                    userNameController.text,
-                                    passwordController.text);
+                                    userNameController.text
+                                        .toString()
+                                        .replaceAll(" ", ""),
+                                    passwordController.text
+                                        .toString()
+                                        .replaceAll(" ", ""));
                                 if (value == 'Success') {
                                   setState(() {
                                     incorrect = false;
@@ -170,8 +174,9 @@ class _UserWidgetState extends State<UserWidget> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) => UserHome(
-                                              userValue:
-                                                  userNameController.text,
+                                              userValue: userNameController.text
+                                                  .toString()
+                                                  .replaceAll(" ", ""),
                                             )),
                                   );
                                 } else if (value == 'Incorrect Password') {

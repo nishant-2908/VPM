@@ -154,8 +154,13 @@ class _AdminWidgetState extends State<AdminWidget> {
                           children: [
                             ElevatedButton(
                               onPressed: () {
-                                isTrue = checkPassword(userNameController.text,
-                                    passwordController.text);
+                                isTrue = checkPassword(
+                                    userNameController.text
+                                        .toString()
+                                        .replaceAll(" ", ""),
+                                    passwordController.text
+                                        .toString()
+                                        .replaceAll(" ", ""));
                                 if (isTrue) {
                                   setState(() {
                                     incorrect = false;
